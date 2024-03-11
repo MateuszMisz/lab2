@@ -62,5 +62,10 @@ namespace lab2
             textBox2.Text= list[checkedListBox1.SelectedIndex].ToString();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
